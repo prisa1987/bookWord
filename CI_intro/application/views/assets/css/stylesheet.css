@@ -1,0 +1,84 @@
+.page{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+	min-height: 1000px;
+	background-color: #E7EEE2;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.row{
+	margin-left: 0px;
+}
+
+
+#word{
+	
+	margin-top: 65px;
+	margin-right: 60px;
+	display: inline;
+	float: right;
+	color : #736A63;
+	font-size: 16px;
+	font-family : "Helvetica Neue",​Helvetica,​Arial,​sans-serif;
+}
+
+#logo{
+	height: 160px;
+ 	width: auto;
+ 	overflow: hidden; 
+ 	margin-top: 20px;
+ 	margin-left: -8px;
+ 	
+ }
+
+.navbar{
+
+	margin-left: 100px;
+	margin-right: 0px;
+	margin-top: -90px;
+}
+
+.nav {
+	margin-right: 0px;
+}
+
+
+.navbar .nav {
+	display: block;
+	float: right;
+	left: 0;
+	margin: 0 -15px 0 0;
+	height: 20px;
+	
+}
+
+.navbar .brand {			
+	color: #f5cd4f;
+	
+}
+
+
+.navbar-inverse .nav > li > a {
+    /*color: rgb(153, 153, 153);*/
+    color: white;
+    font-size: 16px;
+    /*text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);*/
+}
+
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+    background-color: transparent;
+    color: #f5cd4f;
+}
+
+.form-search{
+	float: right;
+	margin-right: 5px;
+	margin-top: 10px;
+
+}
+
+
+
+

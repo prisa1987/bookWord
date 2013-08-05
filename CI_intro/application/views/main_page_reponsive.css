@@ -1,0 +1,146 @@
+
+#page {
+  width: 1100px; 
+  margin-top: 90px;
+   margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 767px)  {
+  body{
+    padding: 0px;
+  }
+  #page {
+    width: auto;
+    margin : 10px;
+    margin-top : 0px;
+
+  }
+  #head{
+    width: 800px;
+    margin-top: 20px;
+  }
+  #content {
+    clear: both;
+    float: left;
+    margin-left: 0;
+    width: auto;
+    display: block;
+  }
+  aside{
+    visibility:hidden;
+  }
+  form{
+   
+    padding-right: 10px;
+
+  }
+  .inputt{
+       width: auto;
+       margin-right: 10px;
+    }
+    .navbar{
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .navbar .nav {
+      display: block;
+      height: 50px;
+      left: 0;
+      margin: 0 -15px 0 0;
+      padding-top: 10px;
+      text-align: center;
+  }
+
+  #logo{
+    margin-top: -10px;
+    margin-left: -15px;
+    height: 80px;
+    width: auto;
+    overflow: hidden; 
+  }
+  .item img{
+    height: auto;
+
+  }
+
+  #submit{
+     margin-left:10px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1108px) {
+    #page {
+      width: 800px;
+      margin-top: 0px;
+    }
+    #head{
+      width: 800px;
+      margin-top: 20px;
+    }
+    #content {
+      clear: both;
+      float: left;
+      margin-left: 0;
+      width: auto;
+      display: block;
+    }
+    .box{
+      width: auto;
+    }
+    form{
+      width: auto;
+      padding-right: 10px;
+
+    }
+    .inputt{
+        width: 90px;
+      }
+    .navbar .nav {
+
+      float: right;
+    }
+
+    .navbar-inverse .nav > li > a {
+        /*color: rgb(153, 153, 153);*/
+
+        color: white;
+        font-size: 25px;
+        width: auto;
+        /*text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);*/
+    }
+
+    #first{
+        /*color: rgb(153, 153, 153);*/
+        margin-left: 200px;
+       /* color: white;
+        font-size: 25px;
+        width: auto;*/
+        /*text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);*/
+    }
+
+
+  .inputt{
+       width: auto;
+       margin-right: 10px;
+    }
+
+  .navbar{
+    width: auto;
+    margin-bottom: 30px;
+  }
+  #logo{
+    margin-top: -20px;
+    margin-left: -10px;
+    height: 100px;
+    width: auto;
+    overflow: hidden; 
+  }
+  .item img{
+    height: auto;
+
+  }
+}
+

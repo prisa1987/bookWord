@@ -1,0 +1,151 @@
+#head{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	/*min-height: 100px;*/
+	/*background-color: #F8F8F8;*/
+	 /*background-color: #F5F5F5;*/
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+	/*padding: 10px;*/
+	padding-top: 0px;
+	font-family: 'thai_sans_lite';
+}
+
+
+
+#page{
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+	min-height: 1000px;
+	background-color: #F8F8F8;
+	 /*background-color: #F5F5F5;*/
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+	padding: 10px;
+	padding-top: 0px;
+	font-family: 'thai_sans_lite';
+}
+
+
+
+.row{
+	margin-left: 0px;
+}
+
+
+#word{
+
+
+	width: 350px;
+	display: inline;
+	/*position: absolute;*/
+	float: right;
+	margin-top: 100px;
+	margin-right: -140px;
+
+	
+
+	color : #000000;
+	font-size: 16px;
+	font-family : "Helvetica Neue",​Helvetica,​Arial,​sans-serif;
+
+}
+
+#logo{
+	height: 200px;
+ 	width: auto;
+ 	overflow: hidden; 
+ 	position: absolute;
+ 	margin-top: -50px;
+ 	/*margin-left: 40px;*/
+ 	margin-left: 30px;
+ 	z-index: 3;
+ 	
+ }
+
+.navbar{
+
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+	/*border-top: solid 6px #FFDE7E;*/
+	border-bottom: solid 6px #66BCDA;
+	/*border-top:solid 6px #FFDE7E;*/
+	/*border-bottom:solid 6px #04BF9D;*/
+
+
+}
+
+.nav {
+	margin-right: 0px;
+
+}
+
+
+.navbar .nav {
+	display: block;
+
+	left: 0;
+	margin: 0 -15px 0 0;
+	height: 50px;
+	padding-top: 10px;
+	/*top: 50px;*/
+	text-align: center;
+	float: right;
+
+
+}
+
+
+
+.navbar .brand {			
+	color: #f5cd4f;
+}
+
+
+.navbar-inverse .nav > li > a {
+    /*color: rgb(153, 153, 153);*/
+
+    color: white;
+    font-size: 24px;
+    width: 120px;
+    /*text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);*/
+}
+
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+    background-color: transparent;
+    color: #f5cd4f;
+}
+
+.form-search{
+	
+
+	position: absolute;
+
+
+
+
+}
+
+
+.button-search {
+    background: url("../image/button-search.png") no-repeat scroll center center transparent;
+    cursor: pointer;
+    height: 24px;
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    width: 28px;
+}
+
+
+
+
+
+

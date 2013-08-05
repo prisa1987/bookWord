@@ -1,0 +1,142 @@
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+/*.navbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}*/
+
+/*.navbar-inner {
+  height: 60px;
+}*/
+
+/*.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  /*text-shadow: 0 1px 0 #ffffff;*/
+/*}*/
+
+
+.jumbotron {
+  /*height: 700px;*/
+  /*background-image: url(/w4w/assets/img/wfwbhero.jpg);*/
+}
+
+.carousel {
+  margin-top: 0px;
+ /* margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;*/
+  /*margin-bottom: 0px;*/
+  height: 400px;
+}
+
+.carousel img {
+  height: 400px;
+  opacity: .8;
+}
+
+.cindicators {
+  left: 50px;
+  bottom: 15px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  z-index: 5;
+  margin: 0;
+  list-style: none;
+}
+
+.carousel-indicators.middle {
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: 30px;
+    text-align: center;
+}
+.carousel-indicators.middle li {
+  float: none;
+  display: inline-block;
+}
+
+@media (max-width: 979px) {
+
+ 
+  .jumbotron:after {
+  content: '';
+  display: block;
+  position: absolute;
+  /*height: 500px;*/
+  top: 40px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*background: url(/w4w/assets/img/wfwbhero2.jpg);*/
+  /*opacity: .4;*/
+}
+
+  .carousel {
+    margin-top: 0px;
+    height: 350px;
+  }
+
+  .carousel img {
+    height: 350px;
+  }
+
+  
+}
+
+
+@media (max-width: 767px) {
+
+  .carousel {
+    margin-top: 0px;
+    /*margin-left: -20px;
+    margin-right: -20px;*/
+    height: 300px;
+    width: auto;
+  }
+
+  .carousel img {
+    height: 300px;
+    width: auto;
+  }
+
+  .carousel-caption {
+    margin-top: 0px;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    left: 0px;
+    padding: 15px;
+    /*background: #333333;
+    /*background: rgba(0, 0, 0, 0.75);*/
+  }
+
+  .carousel-caption h1 {
+    font-size: 220%;
+  }
+
+  .carousel-caption p {
+    font-size: 150%;
+  }
+
+  /*.carousel-indicators {
+    position: absolute;
+    bottom: 15px;
+    right: 46%;
+    z-index: 5;
+    list-style: none;
+  }*/
+
+}
